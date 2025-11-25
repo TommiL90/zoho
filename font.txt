@@ -1,0 +1,186 @@
+@font-face {
+    font-family: 'Zoho_Puvi_Thin';
+    src: url('https://static.zohocdn.com/zohofonts/zohopuvi/4.0/Zoho_Puvi_Thin.eot');
+    src: url('https://static.zohocdn.com/zohofonts/zohopuvi/4.0/Zoho_Puvi_Thin.eot') format('embedded-opentype'), url('https://static.zohocdn.com/zohofonts/zohopuvi/4.0/Zoho_Puvi_Thin.woff2') format('woff2'), /* Modern Browsers */
+    url('https://static.zohocdn.com/zohofonts/zohopuvi/4.0/Zoho_Puvi_Thin.otf') format('opentype');
+    /* Safari, Android, iOS */
+    font-weight: normal;
+    font-style: normal;
+font-display:swap;
+}
+
+@font-face {
+    font-family: 'Zoho_Puvi_ThinItalic';
+    src: url('https://static.zohocdn.com/zohofonts/zohopuvi/4.0/Zoho_Puvi_Thin.eot');
+    src: url('https://static.zohocdn.com/zohofonts/zohopuvi/4.0/Zoho_Puvi_Thin.eot') format('embedded-opentype'), url('https://static.zohocdn.com/zohofonts/zohopuvi/4.0/Zoho_Puvi_Thin.woff2') format('woff2'), /* Modern Browsers */
+    url('https://static.zohocdn.com/zohofonts/zohopuvi/4.0/Zoho_Puvi_Thin.otf') format('opentype');
+    /* Safari, Android, iOS */
+    font-weight: normal;
+    font-style: italic;
+font-display:swap;
+}
+
+@font-face {
+    font-family: 'Zoho_Puvi_Light';
+    src: url('https://static.zohocdn.com/zohofonts/zohopuvi/4.0/Zoho_Puvi_Light.eot');
+    src: url('https://static.zohocdn.com/zohofonts/zohopuvi/4.0/Zoho_Puvi_Light.eot') format('embedded-opentype'), url('https://static.zohocdn.com/zohofonts/zohopuvi/4.0/Zoho_Puvi_Light.woff2') format('woff2'), /* Modern Browsers */
+    url('https://static.zohocdn.com/zohofonts/zohopuvi/4.0/Zoho_Puvi_Light.otf') format('opentype');
+    /* Safari, Android, iOS */
+    font-weight: normal;
+    font-style: normal;
+font-display:swap;
+}
+
+@font-face {
+    font-family: 'Zoho_Puvi_LightItalic';
+    src: url('https://static.zohocdn.com/zohofonts/zohopuvi/4.0/Zoho_Puvi_Light.eot');
+    src: url('https://static.zohocdn.com/zohofonts/zohopuvi/4.0/Zoho_Puvi_Light.eot') format('embedded-opentype'), url('https://static.zohocdn.com/zohofonts/zohopuvi/4.0/Zoho_Puvi_Light.woff2') format('woff2'), /* Modern Browsers */
+    url('https://static.zohocdn.com/zohofonts/zohopuvi/4.0/Zoho_Puvi_Light.otf') format('opentype');
+    /* Safari, Android, iOS */
+    font-weight: normal;
+    font-style: italic;
+font-display:swap;
+}
+
+@font-face {
+    font-family: 'Zoho_Puvi_ExtraLight';
+    src: url('https://static.zohocdn.com/zohofonts/zohopuvi/4.0/Zoho_Puvi_Extralight.eot');
+    src: url('https://static.zohocdn.com/zohofonts/zohopuvi/4.0/Zoho_Puvi_Extralight.eot') format('embedded-opentype'), url('https://static.zohocdn.com/zohofonts/zohopuvi/4.0/Zoho_Puvi_Extralight.woff2') format('woff2'), /* Modern Browsers */
+    url('https://static.zohocdn.com/zohofonts/zohopuvi/4.0/Zoho_Puvi_Extralight.otf') format('opentype');
+    /* Safari, Android, iOS */
+    font-weight: normal;
+    font-style: normal;
+font-display:swap;
+}
+
+@font-face {
+    font-family: 'Zoho_Puvi_Regular';
+    src: url('https://static.zohocdn.com/zohofonts/zohopuvi/4.0/Zoho_Puvi_Regular.eot');
+    src: url('https://static.zohocdn.com/zohofonts/zohopuvi/4.0/Zoho_Puvi_Regular.eot') format('embedded-opentype'), url('https://static.zohocdn.com/zohofonts/zohopuvi/4.0/Zoho_Puvi_Regular.woff2') format('woff2'), /* Modern Browsers */
+    url('https://static.zohocdn.com/zohofonts/zohopuvi/4.0/Zoho_Puvi_Regular.otf') format('opentype');
+    /* Safari, Android, iOS */
+    font-weight: normal;
+    font-style: normal;
+font-display:swap;
+}
+
+@font-face {
+    font-family: 'Zoho_Puvi_RegularItalic';
+    src: url('https://static.zohocdn.com/zohofonts/zohopuvi/4.0/Zoho_Puvi_Regular.eot');
+    src: url('https://static.zohocdn.com/zohofonts/zohopuvi/4.0/Zoho_Puvi_Regular.eot') format('embedded-opentype'), url('https://static.zohocdn.com/zohofonts/zohopuvi/4.0/Zoho_Puvi_Regular.woff2') format('woff2'), /* Modern Browsers */
+    url('https://static.zohocdn.com/zohofonts/zohopuvi/4.0/Zoho_Puvi_Regular.otf') format('opentype');
+    /* Safari, Android, iOS */
+    font-weight: normal;
+    font-style: oblique;
+font-display:swap;
+}
+
+@font-face {
+    font-family: 'Zoho_Puvi_Medium';
+    src: url('https://static.zohocdn.com/zohofonts/zohopuvi/4.0/Zoho_Puvi_Medium.eot');
+    src: url('https://static.zohocdn.com/zohofonts/zohopuvi/4.0/Zoho_Puvi_Medium.eot') format('embedded-opentype'), url('https://static.zohocdn.com/zohofonts/zohopuvi/4.0/Zoho_Puvi_Medium.woff2') format('woff2'), /* Modern Browsers */
+    url('https://static.zohocdn.com/zohofonts/zohopuvi/4.0/Zoho_Puvi_Medium.otf') format('opentype');
+    /* Safari, Android, iOS */
+    font-weight: normal;
+    font-style: normal;
+font-display:swap;
+}
+
+@font-face {
+    font-family: 'Zoho_Puvi_SemiBold';
+    src: url('https://static.zohocdn.com/zohofonts/zohopuvi/4.0/Zoho_Puvi_Semibold.eot');
+    src: url('https://static.zohocdn.com/zohofonts/zohopuvi/4.0/Zoho_Puvi_Semibold.eot') format('embedded-opentype'), url('https://static.zohocdn.com/zohofonts/zohopuvi/4.0/Zoho_Puvi_Semibold.woff2') format('woff2'), /* Modern Browsers */
+    url('https://static.zohocdn.com/zohofonts/zohopuvi/4.0/Zoho_Puvi_Semibold.otf') format('opentype');
+    /* Safari, Android, iOS */
+    font-weight: normal;
+    font-style: normal;
+font-display:swap;
+}
+
+@font-face {
+    font-family: 'Zoho_Puvi_SemiBoldItalic';
+    src: url('https://static.zohocdn.com/zohofonts/zohopuvi/4.0/Zoho_Puvi_Semibold.eot');
+    src: url('https://static.zohocdn.com/zohofonts/zohopuvi/4.0/Zoho_Puvi_Semibold.eot') format('embedded-opentype'), url('https://static.zohocdn.com/zohofonts/zohopuvi/4.0/Zoho_Puvi_Semibold.woff2') format('woff2'), /* Modern Browsers */
+    url('https://static.zohocdn.com/zohofonts/zohopuvi/4.0/Zoho_Puvi_Semibold.otf') format('opentype');
+    /* Safari, Android, iOS */
+    font-weight: normal;
+    font-style: italic;
+font-display:swap;
+}
+
+@font-face {
+    font-family: 'Zoho_Puvi_Bold';
+    src: url('https://static.zohocdn.com/zohofonts/zohopuvi/4.0/Zoho_Puvi_Bold.eot');
+    src: url('https://static.zohocdn.com/zohofonts/zohopuvi/4.0/Zoho_Puvi_Bold.eot') format('embedded-opentype'), url('https://static.zohocdn.com/zohofonts/zohopuvi/4.0/Zoho_Puvi_Bold.woff2') format('woff2'), /* Modern Browsers */
+    url('https://static.zohocdn.com/zohofonts/zohopuvi/4.0/Zoho_Puvi_Bold.otf') format('opentype');
+    /* Safari, Android, iOS */
+    font-weight: normal;
+    font-style: normal;
+font-display:swap;
+}
+
+@font-face {
+    font-family: 'Zoho_Puvi_BoldItalic';
+    src: url('https://static.zohocdn.com/zohofonts/zohopuvi/4.0/Zoho_Puvi_Bold.eot');
+    src: url('https://static.zohocdn.com/zohofonts/zohopuvi/4.0/Zoho_Puvi_Bold.eot') format('embedded-opentype'), url('https://static.zohocdn.com/zohofonts/zohopuvi/4.0/Zoho_Puvi_Bold.woff2') format('woff2'), /* Modern Browsers */
+    url('https://static.zohocdn.com/zohofonts/zohopuvi/4.0/Zoho_Puvi_Bold.otf') format('opentype');
+    /* Safari, Android, iOS */
+    font-weight: normal;
+    font-style: italic;
+font-display:swap;
+}
+
+@font-face {
+    font-family: 'Zoho_Puvi_ExtraBold';
+    src: url('https://static.zohocdn.com/zohofonts/zohopuvi/4.0/Zoho_Puvi_Extrabold.eot');
+    src: url('https://static.zohocdn.com/zohofonts/zohopuvi/4.0/Zoho_Puvi_Extrabold.eot') format('embedded-opentype'), url('https://static.zohocdn.com/zohofonts/zohopuvi/4.0/Zoho_Puvi_Extrabold.woff2') format('woff2'), /* Modern Browsers */
+    url('https://static.zohocdn.com/zohofonts/zohopuvi/4.0/Zoho_Puvi_Extrabold.otf') format('opentype');
+    /* Safari, Android, iOS */
+    font-weight: normal;
+    font-style: normal;
+font-display:swap;
+}
+
+@font-face {
+    font-family: 'Zoho_Puvi_ExtraBoldItalic';
+    src: url('https://static.zohocdn.com/zohofonts/zohopuvi/4.0/Zoho_Puvi_Extrablack.eot');
+    src: url('https://static.zohocdn.com/zohofonts/zohopuvi/4.0/Zoho_Puvi_Extrablack.eot') format('embedded-opentype'), url('https://static.zohocdn.com/zohofonts/zohopuvi/4.0/Zoho_Puvi_Extrablack.woff2') format('woff2'), /* Modern Browsers */
+    url('https://static.zohocdn.com/zohofonts/zohopuvi/4.0/Zoho_Puvi_Extrablack.otf') format('opentype');
+    /* Safari, Android, iOS */
+    font-weight: normal;
+    font-style: italic;
+font-display:swap;
+}
+
+@font-face {
+    font-family: 'Zoho_Puvi_Black';
+    src: url('https://static.zohocdn.com/zohofonts/zohopuvi/4.0/Zoho_Puvi_Black.eot');
+    src: url('https://static.zohocdn.com/zohofonts/zohopuvi/4.0/Zoho_Puvi_Black.eot') format('embedded-opentype'), url('https://static.zohocdn.com/zohofonts/zohopuvi/4.0/Zoho_Puvi_Black.woff2') format('woff2'), /* Modern Browsers */
+    url('https://static.zohocdn.com/zohofonts/zohopuvi/4.0/Zoho_Puvi_Black.otf') format('opentype');
+    /* Safari, Android, iOS */
+    font-weight: normal;
+    font-style: normal;
+font-display:swap;
+}
+
+@font-face {
+    font-family: 'Zoho_Puvi_BlackItalic';
+    src: url('https://static.zohocdn.com/zohofonts/zohopuvi/4.0/Zoho_Puvi_Black.eot');
+    src: url('https://static.zohocdn.com/zohofonts/zohopuvi/4.0/Zoho_Puvi_Black.eot') format('embedded-opentype'), url('https://static.zohocdn.com/zohofonts/zohopuvi/4.0/Zoho_Puvi_Black.woff2') format('woff2'), /* Modern Browsers */
+    url('https://static.zohocdn.com/zohofonts/zohopuvi/4.0/Zoho_Puvi_Black.otf') format('opentype');
+    /* Safari, Android, iOS */
+    font-weight: normal;
+    font-style: italic;
+font-display:swap;
+}
+
+@font-face {
+    font-family: 'Zoho_Puvi_ExtraBlack';
+    src: url('https://static.zohocdn.com/zohofonts/zohopuvi/4.0/Zoho_Puvi_Extrablack.eot');
+    src: url('https://static.zohocdn.com/zohofonts/zohopuvi/4.0/Zoho_Puvi_Extrablack.eot') format('embedded-opentype'), url('https://static.zohocdn.com/zohofonts/zohopuvi/4.0/Zoho_Puvi_Extrablack.woff2') format('woff2'), /* Modern Browsers */
+    url('https://static.zohocdn.com/zohofonts/zohopuvi/4.0/Zoho_Puvi_Extrablack.otf') format('opentype');
+    /* Safari, Android, iOS */
+    font-weight: normal;
+    font-style: normal;
+font-display:swap;
+}
