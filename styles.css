@@ -301,6 +301,19 @@ body {
     position: relative;
 }
 
+.illustration-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 137px);
+    grid-template-rows: repeat(2, 137px);
+    gap: 1rem;
+    position: relative;
+}
+
+.grid-empty {
+    width: 137px;
+    height: 137px;
+}
+
 .card {
     display: flex;
     align-items: center;
