@@ -648,6 +648,91 @@ body {
     line-height: 1.6;
 }
 
+/* Lorem Section */
+.lorem-section {
+    padding: 60px 0 200px;
+    display: flex;
+    align-items: flex-start;
+    position: relative;
+    z-index: 0;
+}
+
+.lorem-content {
+    display: flex;
+    align-items: center;
+    gap: 80px;
+    flex-wrap: wrap;
+}
+
+.lorem-text {
+    flex: 1;
+    min-width: 300px;
+    max-width: 678px;
+    color: #000000;
+}
+
+.lorem-title {
+    font-family: 'Zoho_Puvi_Bold', sans-serif;
+    font-size: 40px;
+    color: #000000;
+    margin-bottom: 30px;
+    line-height: 1.2;
+}
+
+.lorem-description {
+    font-family: 'Zoho_Puvi_Regular', sans-serif;
+    font-size: 17px;
+    color: #000000;
+    margin-bottom: 40px;
+    line-height: 1.6;
+    opacity: 0.95;
+}
+
+.lorem-illustration {
+    width: 358px;
+    height: 337px;
+    background: rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.lorem-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.lorem-card-left {
+    width: 137px;
+    height: 137px;
+    background: #FFE4E3 0% 0% no-repeat padding-box;
+    box-shadow: 0px 0px 26px #9B787733;
+    opacity: 1;
+    border-radius: 10px;
+    border: 2px solid #FFFFFF;
+    z-index: 1;
+}
+
+.lorem-card-right {
+    width: 137px;
+    height: 137px;
+    background: #E5F3FF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 0px 26px #9B787733;
+    opacity: 1;
+    border-radius: 10px;
+    border: 2px solid #FFFFFF;
+    z-index: 1;
+}
+
+.lorem-card-image {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    padding: 20px;
+}
 
 /* Footer */
 .footer {
