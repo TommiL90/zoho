@@ -691,7 +691,7 @@ body {
 .lorem-illustration {
     width: 358px;
     height: 337px;
-    background: url('images/graphic.png') center/cover no-repeat, rgba(0, 0, 0, 0.0);
+    background: url('images/graphic.png') center/80% no-repeat, rgba(0, 0, 0, 0.0);
     border-radius: 10px;
     display: flex;
     align-items: center;
