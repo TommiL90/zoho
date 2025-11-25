@@ -389,7 +389,7 @@ body {
     opacity: 1;
     padding: 60px 50px;
     position: relative;
-    max-width: 900px;
+    width: 100%;
     margin: 0 auto;
     z-index: 10;
 }
@@ -745,6 +745,170 @@ body {
     height: 100%;
     object-fit: contain;
     padding: 20px;
+}
+
+/* Gray Section */
+.gray-section {
+    padding: 60px 0 200px;
+    display: flex;
+    align-items: flex-start;
+    position: relative;
+    z-index: 0;
+}
+
+.gray-section .container {
+    background: #F9F9FC;
+    padding: 60px 20px;
+    border-radius: 10px;
+}
+
+.gray-content {
+    display: flex;
+    align-items: center;
+    gap: 80px;
+    flex-wrap: wrap;
+}
+
+.gray-text {
+    flex: 1;
+    min-width: 300px;
+    max-width: 678px;
+    color: #000000;
+}
+
+.gray-title {
+    font-family: 'Zoho_Puvi_Bold', sans-serif;
+    font-size: 40px;
+    color: #000000;
+    margin-bottom: 30px;
+    line-height: 1.2;
+}
+
+.gray-description {
+    font-family: 'Zoho_Puvi_Regular', sans-serif;
+    font-size: 17px;
+    color: #000000;
+    margin-bottom: 40px;
+    line-height: 1.6;
+    opacity: 0.95;
+}
+
+.gray-illustration {
+    width: 358px;
+    height: 337px;
+    background: url('images/graphic.png') center/80% no-repeat, rgba(0, 0, 0, 0.0);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.gray-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.gray-card-left {
+    width: 137px;
+    height: 137px;
+    background: #FFE4E3 0% 0% no-repeat padding-box;
+    box-shadow: 0px 0px 26px #9B787733;
+    opacity: 1;
+    border-radius: 10px;
+    border: 2px solid #FFFFFF;
+    z-index: 1;
+}
+
+.gray-card-right {
+    width: 137px;
+    height: 137px;
+    background: #E5F3FF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 0px 26px #9B787733;
+    opacity: 1;
+    border-radius: 10px;
+    border: 2px solid #FFFFFF;
+    z-index: 1;
+}
+
+/* Tab Section */
+.tab-section {
+    padding: 60px 0 200px;
+    display: flex;
+    align-items: flex-start;
+    position: relative;
+    z-index: 0;
+}
+
+.tab-content {
+    display: flex;
+    align-items: center;
+    gap: 80px;
+    flex-wrap: wrap;
+}
+
+.tab-text {
+    flex: 1;
+    min-width: 300px;
+    max-width: 678px;
+    color: #000000;
+}
+
+.tab-title {
+    font-family: 'Zoho_Puvi_Bold', sans-serif;
+    font-size: 40px;
+    color: #000000;
+    margin-bottom: 30px;
+    line-height: 1.2;
+}
+
+.tab-description {
+    font-family: 'Zoho_Puvi_Regular', sans-serif;
+    font-size: 17px;
+    color: #000000;
+    margin-bottom: 40px;
+    line-height: 1.6;
+    opacity: 0.95;
+}
+
+.tab-illustration {
+    width: 358px;
+    height: 337px;
+    background: url('images/graphic.png') center/80% no-repeat, rgba(0, 0, 0, 0.0);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tab-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.tab-card-left {
+    width: 137px;
+    height: 137px;
+    background: #FFE4E3 0% 0% no-repeat padding-box;
+    box-shadow: 0px 0px 26px #9B787733;
+    opacity: 1;
+    border-radius: 10px;
+    border: 2px solid #FFFFFF;
+    z-index: 1;
+}
+
+.tab-card-right {
+    width: 137px;
+    height: 137px;
+    background: #E5F3FF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 0px 26px #9B787733;
+    opacity: 1;
+    border-radius: 10px;
+    border: 2px solid #FFFFFF;
+    z-index: 1;
 }
 
 /* Footer */
