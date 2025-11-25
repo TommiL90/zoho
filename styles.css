@@ -823,82 +823,115 @@ body {
 }
 
 /* Tab Section */
+/* Tab Section */
 .tab-section {
-    padding: 60px 0 200px;
-    display: flex;
-    align-items: flex-start;
-    position: relative;
-    z-index: 0;
+    padding: 80px 0;
+    background: #FFFFFF;
 }
 
-.tab-content {
-    display: flex;
-    align-items: center;
-    gap: 80px;
-    flex-wrap: wrap;
-}
-
-.tab-text {
-    flex: 1;
-    min-width: 300px;
-    max-width: 678px;
-    color: #000000;
-}
-
-.tab-title {
+.tab-section-title {
     font-family: 'Zoho_Puvi_Bold', sans-serif;
     font-size: 40px;
     color: #000000;
     margin-bottom: 30px;
     line-height: 1.2;
+    text-align: center;
 }
 
-.tab-description {
-    font-family: 'Zoho_Puvi_Regular', sans-serif;
-    font-size: 17px;
-    color: #000000;
+.tabs-container {
+    display: flex;
+    gap: 0;
     margin-bottom: 40px;
-    line-height: 1.6;
-    opacity: 0.95;
-}
-
-.tab-illustration {
-    width: 358px;
-    height: 337px;
-    background: url('images/graphic.png') center/80% no-repeat, rgba(0, 0, 0, 0.0);
-    border-radius: 10px;
-    display: flex;
-    align-items: center;
+    border-bottom: 1px solid #E1E7F0;
     justify-content: center;
 }
 
-.tab-card {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.tab-button {
+    font-family: 'Zoho_Puvi_Medium', sans-serif;
+    font-size: 17px;
+    padding: 15px 30px;
+    border: none;
+    background: transparent;
+    color: #000000;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border-bottom: 3px solid transparent;
     position: relative;
 }
 
-.tab-card-left {
-    width: 137px;
-    height: 137px;
-    background: #FFE4E3 0% 0% no-repeat padding-box;
-    box-shadow: 0px 0px 26px #9B787733;
-    opacity: 1;
-    border-radius: 10px;
-    border: 2px solid #FFFFFF;
-    z-index: 1;
+.tab-button:hover {
+    opacity: 0.8;
 }
 
-.tab-card-right {
-    width: 137px;
-    height: 137px;
-    background: #E5F3FF 0% 0% no-repeat padding-box;
-    box-shadow: 0px 0px 26px #9B787733;
-    opacity: 1;
+.tab-button.active {
+    background: linear-gradient(243deg, #2163C3 0%, #000EA3 100%);
+    color: #FFFFFF;
+    border-radius: 4px 4px 0 0;
+    border-bottom: none;
+}
+
+.tab-panels {
+    min-height: 400px;
+}
+
+.tab-panel {
+    display: none;
+    animation: fadeIn 0.3s ease-in;
+}
+
+.tab-panel.active {
+    display: block;
+}
+
+.tab-panel-layout {
+    display: flex;
+    align-items: center;
+    gap: 80px;
+}
+
+.tab-panel-illustration {
+    flex: 1;
+    max-width: 586px;
+    max-height: 479px;
+}
+
+.tab-panel-image {
+    width: 100%;
+    height: auto;
+    max-height: 479px;
+    object-fit: contain;
     border-radius: 10px;
-    border: 2px solid #FFFFFF;
-    z-index: 1;
+}
+
+.tab-panel-content {
+    flex: 1;
+}
+
+.tab-panel-title {
+    font-family: 'Zoho_Puvi_Bold', sans-serif;
+    font-size: 32px;
+    color: #000000;
+    margin-bottom: 20px;
+    line-height: 1.2;
+}
+
+.tab-panel-description {
+    font-family: 'Zoho_Puvi_Regular', sans-serif;
+    font-size: 17px;
+    color: #000000;
+    line-height: 1.6;
+    margin: 0;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
 
 /* Footer */
@@ -1002,6 +1035,32 @@ body {
     .dashboard-preview {
         height: 250px;
     }
+
+    .tab-section-title {
+        font-size: 32px;
+    }
+
+    .tab-panel-layout {
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .tab-panel-illustration {
+        max-width: 100%;
+    }
+
+    .tab-panel-title {
+        font-size: 28px;
+    }
+
+    .tabs-container {
+        flex-wrap: wrap;
+    }
+
+    .tab-button {
+        padding: 12px 20px;
+        font-size: 15px;
+    }
 }
 
 @media (max-width: 480px) {
@@ -1034,12 +1093,27 @@ body {
     .features-section,
     .hero-section,
     .content-section,
-    .cta-banner {
+    .cta-banner,
+    .tab-section {
         padding: 40px 0;
     }
 
     .feature-card {
         padding: 20px;
+    }
+
+    .tab-section-title {
+        font-size: 28px;
+    }
+
+    .tab-panel-title {
+        font-size: 24px;
+    }
+
+    .tab-button {
+        padding: 10px 15px;
+        font-size: 14px;
+        flex: 1 1 auto;
     }
 }
 

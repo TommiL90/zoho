@@ -39,5 +39,22 @@ $(document).ready(function() {
             $(this).css('transform', 'translateY(0)');
         }
     );
+
+    // Funcionalidad de Tabs
+    $('.tab-button').on('click', function() {
+        const tabId = $(this).data('tab');
+        
+        // Remover clase active de todos los botones
+        $('.tab-button').removeClass('active');
+        
+        // Agregar clase active al botón clickeado
+        $(this).addClass('active');
+        
+        // Ocultar todos los paneles
+        $('.tab-panel').removeClass('active');
+        
+        // Mostrar el panel correspondiente
+        $('#' + tabId).addClass('active');
+    });
 });
 
