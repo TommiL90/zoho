@@ -87,29 +87,6 @@ body {
     padding: 0 20px;
 }
 
-/* Header */
-.header {
-    background: #FFFFFF;
-    padding: 20px 0;
-    border-bottom: 1px solid #E1E7F0;
-}
-
-.header-content {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    flex-wrap: wrap;
-}
-
-.breadcrumb {
-    display: flex;
-    align-items: center;
-    gap: 8px;
-    font-family: 'Zoho_Puvi_Regular', sans-serif;
-    font-size: 14px;
-    color: #5E758B;
-}
-
 .breadcrumb-separator {
     color: #BEBEBE;
 }
@@ -687,6 +664,10 @@ body {
         padding: 0 15px;
     }
 
+    .testimonial-section {
+        margin-top: -100px;
+    }
+
     .hero-section {
         padding: 40px 0 80px;
         min-height: auto;
@@ -754,6 +735,10 @@ body {
 }
 
 @media (max-width: 480px) {
+    .testimonial-section {
+        margin-top: -60px;
+    }
+
     .hero-title {
         font-size: 32px;
     }
