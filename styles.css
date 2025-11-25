@@ -208,149 +208,13 @@ font-display:swap;
     padding: 0 20px;
 }
 
-.breadcrumb-separator {
-    color: #BEBEBE;
-}
-
-.logo {
-    display: flex;
-    align-items: center;
-    gap: 12px;
-}
-
-.logo-squares {
-    display: flex;
-    gap: 4px;
-}
-
-.square {
-    width: 24px;
-    height: 24px;
-    display: inline-block;
-}
-
-.square-blue {
-    background: #2163C3;
-}
-
-.square-red {
-    background: #F4333D;
-}
-
-.square-yellow {
-    background: #F8D35B;
-}
-
-.square-green {
-    background: #476C53;
-}
-
-.logo-text {
-    font-family: 'Zoho_Puvi_Bold', sans-serif;
-    font-size: 22px;
-    color: #000000;
-}
-
-/* Sección de Características */
-.features-section {
-    background: #FFFFFF;
-    padding: 60px 0;
-}
-
-.features-grid {
-    display: flex;
-    gap: 40px;
-    flex-wrap: wrap;
-}
-
+/* feature-card se mantiene porque se usa en script.js */
 .feature-card {
     flex: 1;
     min-width: 300px;
     padding: 30px;
     background: #F9F9FC;
     border-radius: 8px;
-}
-
-.feature-icon {
-    margin-bottom: 20px;
-}
-
-.sprite-icon {
-    display: inline-block;
-    width: 64px;
-    height: 64px;
-    position: relative;
-    background: #F8D35B;
-    border-radius: 50%;
-}
-
-/* Icono de nube con rayo - Sprite CSS */
-.sprite-cloud-lightning::before {
-    content: '';
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%) rotate(-45deg);
-    width: 8px;
-    height: 20px;
-    background: #F4333D;
-    clip-path: polygon(50% 0%, 0% 100%, 50% 70%, 100% 100%);
-}
-
-.sprite-cloud-lightning::after {
-    content: '';
-    position: absolute;
-    top: 12px;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 32px;
-    height: 22px;
-    background: #FFFFFF;
-    border-radius: 50px 50px 0 0;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-}
-
-/* Icono de nube con engranaje - Sprite CSS */
-.sprite-cloud-gear::before {
-    content: '';
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 20px;
-    height: 20px;
-    background: #2163C3;
-    border-radius: 50%;
-    box-shadow: 
-        inset 0 0 0 2px #FFFFFF,
-        0 0 0 2px #2163C3;
-}
-
-.sprite-cloud-gear::after {
-    content: '';
-    position: absolute;
-    top: 12px;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 32px;
-    height: 22px;
-    background: #FFFFFF;
-    border-radius: 50px 50px 0 0;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-}
-
-.feature-title {
-    font-family: 'Zoho_Puvi_Bold', sans-serif;
-    font-size: 22px;
-    color: #000000;
-    margin-bottom: 15px;
-}
-
-.feature-text {
-    font-family: 'Zoho_Puvi_Regular', sans-serif;
-    font-size: 17px;
-    color: #000000;
-    line-height: 1.6;
 }
 
 /* Hero Section */
@@ -628,12 +492,6 @@ font-display:swap;
     transition: all 0.3s ease;
 }
 
-.dot-active {
-    background: #2163C3;
-    width: 32px;
-    border-radius: 6px;
-}
-
 .btn {
     padding: 15px 30px;
     border: none;
@@ -642,17 +500,6 @@ font-display:swap;
     font-size: 17px;
     cursor: pointer;
     transition: all 0.3s ease;
-}
-
-.btn-primary {
-    background: #2163C3;
-    color: #FFFFFF;
-}
-
-.btn-secondary {
-    background: #FFFFFF;
-    color: #2163C3;
-    border: 2px solid #2163C3;
 }
 
 .btn-cta {
@@ -702,84 +549,11 @@ font-display:swap;
     opacity: 1;
 }
 
-/* Sección de Contenido */
-.content-section {
-    background: #FFFFFF;
-    padding: 80px 0;
-}
-
+/* content-wrapper se mantiene porque se usa en script.js */
 .content-wrapper {
     display: flex;
     align-items: center;
     gap: 60px;
-}
-
-.content-image {
-    flex: 1;
-}
-
-.dashboard-preview {
-    background: #FFFFFF;
-    border: 1px solid #E1E7F0;
-    border-radius: 8px;
-    overflow: hidden;
-    display: flex;
-    height: 300px;
-}
-
-.dashboard-sidebar {
-    width: 60px;
-    background: #000EA3;
-}
-
-.dashboard-main {
-    flex: 1;
-    padding: 20px;
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-}
-
-.chart-container {
-    display: flex;
-    align-items: flex-end;
-    gap: 10px;
-    height: 100px;
-}
-
-.chart-bar {
-    flex: 1;
-    background: #2163C3;
-    border-radius: 4px 4px 0 0;
-    min-height: 20px;
-}
-
-.chart-line {
-    flex: 1;
-    height: 100px;
-}
-
-.line-chart {
-    width: 100%;
-    height: 100%;
-}
-
-.content-text {
-    flex: 1;
-}
-
-.content-title {
-    font-family: 'Zoho_Puvi_Bold', sans-serif;
-    font-size: 42px;
-    color: #000000;
-    margin-bottom: 20px;
-}
-
-.content-description {
-    font-family: 'Zoho_Puvi_Regular', sans-serif;
-    font-size: 18px;
-    color: #000000;
-    line-height: 1.6;
 }
 
 /* Lorem Section */
@@ -859,13 +633,6 @@ font-display:swap;
     border-radius: 10px;
     border: 2px solid #FFFFFF;
     z-index: 1;
-}
-
-.lorem-card-image {
-    width: 100%;
-    height: 100%;
-    object-fit: contain;
-    padding: 20px;
 }
 
 /* Gray Section */
@@ -1133,10 +900,6 @@ font-display:swap;
         gap: 40px;
     }
 
-    .content-title {
-        font-size: 32px;
-    }
-
     .testimonial-card {
         padding: 40px 30px;
     }
@@ -1145,16 +908,8 @@ font-display:swap;
         font-size: 16px;
     }
 
-    .features-grid {
-        flex-direction: column;
-    }
-
     .btn {
         width: 100%;
-    }
-
-    .dashboard-preview {
-        height: 250px;
     }
 
     .tab-section-title {
@@ -1193,28 +948,7 @@ font-display:swap;
         font-size: 32px;
     }
 
-    .content-title {
-        font-size: 28px;
-    }
-
-    .cta-title {
-        font-size: 28px;
-    }
-
-    .feature-title {
-        font-size: 20px;
-    }
-
-    .logo-text {
-        font-size: 18px;
-    }
-}
-
-@media (max-width: 480px) {
-    .features-section,
     .hero-section,
-    .content-section,
-    .cta-banner,
     .tab-section {
         padding: 40px 0;
     }
@@ -1276,10 +1010,6 @@ font-display:swap;
         font-size: 18px;
     }
 
-    .content-title {
-        font-size: 22px;
-    }
-
     .btn {
         padding: 12px 20px;
         font-size: 14px;
@@ -1290,21 +1020,6 @@ font-display:swap;
         font-size: 14px;
     }
 
-    .sprite-icon {
-        width: 48px;
-        height: 48px;
-    }
-
-    .dashboard-preview {
-        height: 200px;
-    }
-
-    .dashboard-sidebar {
-        width: 40px;
-    }
-
-    .features-section,
-    .content-section,
     .testimonial-section {
         padding: 30px 0;
     }
@@ -1329,18 +1044,6 @@ font-display:swap;
     .quote-bottom {
         bottom: 10px;
         right: 15px;
-    }
-
-    .feature-title {
-        font-size: 18px;
-    }
-
-    .feature-text {
-        font-size: 15px;
-    }
-
-    .content-description {
-        font-size: 16px;
     }
 }
 
